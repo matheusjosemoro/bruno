@@ -1,0 +1,86 @@
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 49, 83);
+    margin: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 50px;
+}
+
+
+header {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    border-top: solid 1px rgb(255, 255, 255);
+    border-left: solid 1px rgb(255, 255, 255);
+    border-right: solid 1px rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding-left: 45%;
+    padding-top: 10px;
+}
+
+.chamada {
+    background: rgb(0, 49, 83);
+    padding-bottom: 80px;
+    padding-top: 80px;
+   
+    justify-content: center;
+   
+
+    margin-right: 30%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    height: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    gap: 20px
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;   
+}
+
+.categoria-videos img {
+        opacity: 0.5;
+        height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1.5px solid rgb(128, 128, 128);
+}
+
+.categoria h2 {
+    color:aliceblue;    
+}
+
+footer{
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding-top: 40px;
+}
+
+iframe {
+    padding-left: 20%;
+}
+
+h2 {
+    padding-left: 40%;
+    font-size: 50px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    border-top: solid 1px rgb(255, 255, 255);
+    border-left: solid 1px rgb(255, 255, 255);
+    border-right: solid 1px rgb(255, 255, 255);
+}
